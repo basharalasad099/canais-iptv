@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml -->
+   
+  <filename>guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">mdb</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 6.1; WOW64; rv:29.0) Gecko/20100101 Firefox/29.0</user-agent>
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>0</timespan>
+  <update>f</update>
+ 
+  <!--
+            Replace the next dummy channel entry with the channels you want.
+			You can look into the installed siteini.pack folder on your computer
+  
+            For the latest version,
+            see http://webgrabplus.com/epg-channels for the available sites/channels
+  -->
+  
+ <channel update="i" site="lineup.net.br" site_id="864" xmltv_id="CWB TV">CWB TV</channel>
+    <channel update="i" site="lineup.net.br" site_id="14" xmltv_id="Discovery Channel">Discovery Channel</channel>
+    <channel update="i" site="lineup.net.br" site_id="15" xmltv_id="Discovery Civilization">Discovery Civilization</channel>
+    <channel update="i" site="lineup.net.br" site_id="16" xmltv_id="Discovery Home &amp; Health">Discovery Home &amp; Health</channel>
+    <channel update="i" site="lineup.net.br" site_id="17" xmltv_id="Discovery Kids">Discovery Kids</channel>
+    <channel update="i" site="lineup.net.br" site_id="18" xmltv_id="Discovery Science">Discovery Science</channel>
+    <channel update="i" site="lineup.net.br" site_id="20" xmltv_id="Discovery Theater">Discovery Theater</channel>
+    <channel update="i" site="lineup.net.br" site_id="19" xmltv_id="Discovery Turbo">Discovery Turbo</channel>
+    <channel update="i" site="lineup.net.br" site_id="24" xmltv_id="Discovery World">Discovery World</channel>
+    <channel update="i" site="lineup.net.br" site_id="25" xmltv_id="Disney Channel">Disney Channel</channel>
+    <channel update="i" site="lineup.net.br" site_id="4900" xmltv_id="Disney Channel +">Disney Channel +</channel>
+    <channel update="i" site="lineup.net.br" site_id="26" xmltv_id="Disney Junior">Disney Junior</channel>
+    <channel update="i" site="lineup.net.br" site_id="27" xmltv_id="Disney XD">Disney XD</channel>
+ 
+</settings>
